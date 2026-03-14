@@ -6,12 +6,12 @@ A semantic search engine built with C#, Ollama, and Qdrant Cloud.
 - Loads any PDF and splits it into chunks
 - Converts chunks to vectors using Ollama (nomic-embed-text)
 - Stores vectors in Qdrant Cloud vector database
-- Searches using Hybrid Search — Vector similarity + BM25 keyword search combined
+- Searches using Hybrid Search - Vector similarity + BM25 keyword search combined
 - Results ranked with Reciprocal Rank Fusion (RRF)
 
 ## Tech Stack
 - **Language:** C# / .NET 8
-- **Embeddings:** Ollama (nomic-embed-text) — runs locally, free
+- **Embeddings:** Ollama (nomic-embed-text) - runs locally, free
 - **Vector Database:** Qdrant Cloud
 - **PDF Parsing:** PdfPig
 - **Search:** Hybrid (Vector + BM25)
@@ -43,7 +43,7 @@ A semantic search engine built with C#, Ollama, and Qdrant Cloud.
 2. Text is cleaned (spaces fixed) and split into 40-word overlapping chunks
 3. Each chunk is embedded into a 768-dimensional vector
 4. Vectors stored in Qdrant with original text as payload
-5. At query time — both vector search AND BM25 run in parallel
+5. At query time - both vector search AND BM25 run in parallel
 6. Results merged with Reciprocal Rank Fusion for best accuracy
 
 ## Day 2+3 of 30-day AI Engineering sprint
