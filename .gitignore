@@ -1,0 +1,26 @@
+# Secret keys — NEVER upload these
+# Geheime Schlüssel — Diese NIEMALS hochladen
+.env
+
+# .NET build output — not needed on GitHub
+# .NET Build-Ausgabe — nicht auf GitHub nötig
+bin/
+obj/
+
+# VS Code settings — personal, not project-related
+# VS Code Einstellungen — persönlich, nicht projektbezogen
+.vscode/
+
+# NuGet packages — gets restored automatically
+# NuGet-Pakete — werden automatisch wiederhergestellt
+*.user
+*.suo
+
+# OS files
+# Betriebssystem-Dateien
+.DS_Store
+Thumbs.db
+
+# PDF files — too large for GitHub
+# PDF-Dateien — zu groß für GitHub
+*.pdf
