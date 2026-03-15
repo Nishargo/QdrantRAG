@@ -11,7 +11,7 @@ A semantic search engine built with C#, Ollama, and Qdrant Cloud.
 
 ## Tech Stack
 - **Language:** C# / .NET 8
-- **Embeddings:** Ollama (nomic-embed-text) — runs locally, free
+- **Embeddings:** Ollama (nomic-embed-text) - runs locally, free
 - **Vector Database:** Qdrant Cloud
 - **PDF Parsing:** PdfPig
 - **Search:** Hybrid (Vector + BM25)
