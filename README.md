@@ -46,5 +46,5 @@ A semantic search engine built with C#, Ollama, and Qdrant Cloud.
 5. At query time - both vector search AND BM25 run in parallel
 6. Results merged with Reciprocal Rank Fusion for best accuracy
 
-## Day 2+3 of 30-day AI Engineering sprint
+## 30-day AI Engineering sprint
 Part of a 30-day plan to align with AI/LLM engineering role requirements.
